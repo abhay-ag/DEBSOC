@@ -44,7 +44,7 @@ a{
     padding: 0 5rem 0;
     font-size: 2rem;
     font-weight: 600;
-    color:#38b6ff;
+    color: var(--purple-color);
     /* letter-spacing: 2px; */
 }
 .navlinks{
@@ -53,13 +53,13 @@ a{
     align-items: center;
     justify-content: space-evenly;
     font-size: 1rem;
-    color: var(--light-color);
+    color: var(--purple-color);
     padding: 0 3rem 0 0;
 }
 .contact-card{
     height: 74vh;
     width: 100%;
-    background-color: var(--light-color);
+    background-color: var(--purple-color);
     display: flex;
     flex-direction: column;
 }
@@ -88,7 +88,7 @@ a{
 }
 .footer{
     height: 4vh;
-    background-color: var(--light-color);
+    background-color: var(--purple-color);
     box-sizing: border-box;
     border-top: 1px solid rgba(255,255,255,0.3);
     display: flex;
@@ -123,7 +123,7 @@ i.fa{
 }
 .socials{
     margin-top: 5rem;
-    font-size: 1.9rem;
+    font-size: 2.3rem;
     display: flex;
 }
 .social-option{
@@ -134,5 +134,5 @@ i.fa{
     transition: all 150ms ease-out;
 }
 .social-option:hover a{
-    color: var(--black-color);
+    color: var(--light-color);
 }
