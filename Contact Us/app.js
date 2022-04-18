@@ -5,3 +5,9 @@ document.addEventListener('DOMContentLoaded', () =>{
     let getYear = date.getFullYear();
     footer.innerHTML = `Copyright &copy; ${getYear} DEBSOC. All rights reserved.`
 })
+
+$(document).ready(() => {
+    $(document).on('submit', '#contact-form', function() {
+        return false;
+       });
+})
