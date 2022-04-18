@@ -121,3 +121,18 @@ i.fa{
     align-items: center;
     margin-top: 3rem;
 }
+.socials{
+    margin-top: 5rem;
+    font-size: 1.9rem;
+    display: flex;
+}
+.social-option{
+    color: var(--white-color);
+    margin-right: 0.7em;
+}
+.social-option a{
+    transition: all 150ms ease-out;
+}
+.social-option:hover a{
+    color: var(--black-color);
+}
