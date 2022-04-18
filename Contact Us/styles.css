@@ -18,7 +18,7 @@ a{
     --white-color: #ffffff;
     --black-color: #000000;
     --purple-color: #8c52ff;
-    --color-gray: rgba(255,255,255, 0.5);
+    --color-gray: rgba(255,255,255, 0.6);
 }
 #main{
     width: 70vw;
@@ -99,8 +99,25 @@ a{
 }
 .sec1 h1{
     color: var(--white-color);
+    font-size: 3rem;
 }
 .sec1 h4{
     color: var(--color-gray);
     font-weight: 200;
+    font-size: 1.2rem;
+}
+.contact-options{
+    color: var(--white-color);
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+i.fa{
+    margin-right: 1rem;
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
 }
