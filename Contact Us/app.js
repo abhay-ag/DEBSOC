@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', () =>{
 $(document).ready(() => {
     $(document).on('submit', '#contact-form', function() {
         return false;
-       });
+    });
 })
