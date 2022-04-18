@@ -17,8 +17,9 @@ a{
     --light-color: #38b6ff;
     --white-color: #ffffff;
     --black-color: #000000;
-    --purple-color: #8c52ff;
+    --purple-color: #6d38ff;
     --color-gray: rgba(255,255,255, 0.6);
+    --dark-purple-color: #5b2fd7;
 }
 #main{
     width: 70vw;
@@ -72,7 +73,7 @@ a{
 }
 .sec1,
 .sec2{
-    flex: 1.1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -82,8 +83,8 @@ a{
     font-family: 'Montserrat';
 }
 .sec2{
-    padding: 0 !important;
-    flex: 0.9 !important;
+    padding: 2rem 1rem !important;
+    flex: 1 !important;
     background-color: var(--white-color) !important;
 }
 .footer{
@@ -127,12 +128,80 @@ i.fa{
     display: flex;
 }
 .social-option{
-    color: var(--white-color);
+    color: var(--color-gray);
     margin-right: 0.7em;
 }
 .social-option a{
-    transition: all 150ms ease-out;
+    transition: all 200ms ease-out;
 }
 .social-option:hover a{
-    color: var(--light-color);
+    color: var(--white-color);
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.name-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.name-section label{
+    font-weight: 600;
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+.name-section label input{
+    margin-top: 0.7rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+.name-section label:first-child input{
+    width: 94% !important;
+}
+#contact-form label{
+    font-weight: 600;
+}
+#contact-form > input, textarea{
+    margin: 0.7rem 0 1.5rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+textarea{
+    resize: none;
+    height: 7rem;
+    font-family: 'Montserrat';
+}
+#contact-form button{
+    width: fit-content;
+    align-self: flex-end;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: background-color 200ms ease-out;
+}
+#contact-form button:active{
+    background-color: var(--dark-purple-color);
+}
+input{
+    font-family: 'Montserrat';
 }
