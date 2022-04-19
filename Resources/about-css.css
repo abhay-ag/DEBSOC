@@ -133,6 +133,12 @@ h4.desc{
     .people{
         flex-direction: column;
     }
+    .navbar h1{
+        flex: 0.4rem;
+    }
+    .navbar .links{
+        flex: 0.6;
+    }
     .main-card{
         width: 100%;
         box-sizing: border-box;
