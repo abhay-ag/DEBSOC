@@ -20,6 +20,7 @@ a{
     --purple-color: #6d38ff;
     --color-gray: rgba(255,255,255, 0.6);
     --dark-purple-color: #5b2fd7;
+    --flamingo-color: pink;
 }
 #main{
     width: 70vw;
@@ -110,12 +111,14 @@ a{
 .contact-options{
     color: var(--white-color);
     margin-top: 5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
 }
 i.fa{
+    color: var(--flamingo-color);
     margin-right: 1rem;
+    font-size: 2rem !important;
 }
 .option{
     display: flex;
@@ -128,14 +131,25 @@ i.fa{
     display: flex;
 }
 .social-option{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
     color: var(--color-gray);
     margin-right: 0.7em;
+    transition: background-color 500ms ease-out;
 }
 .social-option a{
-    transition: all 200ms ease-out;
+    transition: all 500ms ease-out;
 }
 .social-option:hover a{
     color: var(--white-color);
+}
+.social-option:hover{
+    background-color: var(--flamingo-color);
 }
 #contact-form{
     display: flex;
