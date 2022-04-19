@@ -133,4 +133,47 @@ h4.desc{
         box-sizing: border-box;
         padding: 0 2rem;
     }
+    .people{
+        flex-direction: column;
+    }
+    .main-card{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10rem;
+    }
+}
+@media screen and (max-width: 690px){
+    h1.thin{
+        font-size: 2rem;
+    }
+    h4.desc{
+        font-size: 1rem;
+        padding: 0 1rem;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid rgba(0,0,0,0.19);
+    }
+    .navbar h1{
+        font-size: 1.5rem;
+        flex: 0.3;
+        padding: 0 1rem;
+    }
+    .navbar .links{
+        flex: 0.7;
+    }
+    .people{
+        align-items: center;
+    }
+    .main-card{
+        width: 95%;
+        padding: 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
+    .main-card .photo{
+        width: 20vw;
+        height: 20vw;
+    }
+    .description{
+        margin-top: 1rem;
+    }
 }
