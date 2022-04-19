@@ -50,6 +50,7 @@ h4.desc{
     justify-content: center;
     border-radius: 5px;
     transition: box-shadow 200ms ease-out, transform 200ms ease-out;
+    margin-bottom: 2rem;
 }
 .main-card .photo{
     width: 8vw;
@@ -105,11 +106,12 @@ h4.desc{
     display: flex;
     width: 100%;
     flex-direction: row;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(55, 54, 54);
     color: white;
     margin-bottom: 1rem;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 .navbar h1{
     flex: 0.8;
