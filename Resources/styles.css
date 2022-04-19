@@ -222,7 +222,7 @@ textarea{
 input{
     font-family: 'Montserrat';
 }
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1370px) {
     #main{
         margin: 2rem 0;
     }
