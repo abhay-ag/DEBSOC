@@ -39,6 +39,9 @@ a{
     align-items: center;
     flex-direction: row;
     font-family: 'Montserrat';
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 .web-title{
     flex: 0.7;
@@ -131,8 +134,8 @@ i.fa{
     display: flex;
 }
 .social-option{
-    width: 3vw;
-    height: 3vw;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -218,4 +221,65 @@ textarea{
 }
 input{
     font-family: 'Montserrat';
+}
+@media screen and (max-width: 1160px) {
+    #main{
+        margin: 2rem 0;
+    }
+    #main, .contact-card, .info-sec, body{
+        height: max-content;
+    }
+    .web-title{
+        flex: 0.4;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    .navlinks{
+        flex: 0.6;
+        font-size: 1rem;
+        padding: 0 3rem;
+    }
+    .info-sec{
+        flex-direction: column;
+    }
+    .sec1, .sec2{
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 680px) {
+    #main{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .navlinks{
+        padding: 0;
+    }
+    .sec1 h1{
+        font-size: 2rem;
+    }
+    .sec1 h4{
+        font-size: 1rem;
+    }
+    .sec1, .sec2{
+        padding: 0;
+    }
+    .info-sec{
+        padding: 1rem 0.6rem;
+    }
+    .contact-options{
+        margin-top: 1rem;
+    }
+    .option{
+        margin-top: 2rem;
+    }
+    .footer{
+        font-size: 0.7rem;
+    }
+    .contact-options{
+        font-size: 1.05rem;
+    }
+    .socials, i.fa{
+        font-size: 2rem;
+    }
 }
