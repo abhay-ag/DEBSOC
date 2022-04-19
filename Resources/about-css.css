@@ -125,3 +125,12 @@ h4.desc{
     justify-content: space-evenly;
     align-items: center;
 }
+@media screen and (max-width: 1160px) {
+    body{
+        padding: 0;
+    }
+    h4.desc{
+        box-sizing: border-box;
+        padding: 0 2rem;
+    }
+}
