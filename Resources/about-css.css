@@ -16,13 +16,13 @@ body{
     width: 100vw;
 }
 h1.thin{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 100;
     width: fit-content;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 h4.desc{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 200;
     text-align: center;
     margin-top: 2rem;
@@ -36,15 +36,16 @@ h4.desc{
 }
 .main-card{
     width: 25%;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid;
 }
 .main-card .photo{
-    width: 6vw;
-    height: 6vw;
+    width: 7vw;
+    height: 7vw;
     border-radius: 50%;
     overflow: hidden;
 }
