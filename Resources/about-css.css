@@ -41,15 +41,39 @@ h4.desc{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    border-radius: 5px;
+    transition: box-shadow 200ms ease-out, transform 200ms ease-out;
 }
 .main-card .photo{
-    width: 7vw;
-    height: 7vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 50%;
     overflow: hidden;
 }
 .main-card .photo img{
     width: 100%;
     object-fit: contain;
+}
+.no-border{
+    text-align: center;
+    margin-top: 2rem !important;
+    font-size: 2rem !important;
+    border-bottom: none !important;
+    line-height: 1.4rem;
+}
+.no-border small{
+    color: rgba(0,0,0,0.6);
+    font-size: 1rem;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+.main-card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.19);
 }
