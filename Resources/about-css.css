@@ -109,9 +109,6 @@ h4.desc{
     background-color: rgb(55, 54, 54);
     color: white;
     margin-bottom: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
 }
 .navbar h1{
     flex: 0.8;
@@ -140,6 +137,9 @@ h4.desc{
         width: 100%;
         box-sizing: border-box;
         padding: 0 10rem;
+    }
+    .socials{
+        color: #38b6ff;;
     }
 }
 @media screen and (max-width: 690px){
