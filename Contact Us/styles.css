@@ -41,7 +41,7 @@ a{
     font-family: 'Montserrat';
 }
 .web-title{
-    flex: 0.6;
+    flex: 0.7;
     box-sizing: border-box;
     padding: 0 5rem 0;
     font-size: 2rem;
@@ -50,7 +50,7 @@ a{
     /* letter-spacing: 2px; */
 }
 .navlinks{
-    flex: 0.4;
+    flex: 0.3;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
