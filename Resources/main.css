@@ -46,8 +46,8 @@ a{
 }
 .title{
     flex: 0.2;
-    margin: 0 0 0 2rem;
-    padding: 0 1rem;
+    margin: 0 0 0 0rem;
+    padding: 0 0.5rem;
     font-size: 2rem;
     font-weight: 800;
     color: #38b6ff;
@@ -82,4 +82,10 @@ a{
 }
 .nav .login-signup button:nth-child(2){
     background-color: #38b6ff;
+}
+.text{
+    margin: 3rem;
+}
+.text h1{
+    font-size: 3.5vw;
 }
