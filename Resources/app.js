@@ -88,7 +88,13 @@ document.addEventListener('DOMContentLoaded', () =>{
     </div>`
     }
     str += `<div class = "rating">
-    <div class = "text">⭐️⭐️⭐️⭐️⭐️</div>
+    <div class = "stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i> <b>4.9</b></div>
+    <small>from 400+ reviews</small>
     </div>`
     reviewTab.innerHTML = str;
 })
