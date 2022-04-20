@@ -87,6 +87,8 @@ document.addEventListener('DOMContentLoaded', () =>{
         <img src="${review[i].imgUrl}" alt="">
     </div>`
     }
-
+    str += `<div class = "rating">
+    <div class = "text">⭐️⭐️⭐️⭐️⭐️</div>
+    </div>`
     reviewTab.innerHTML = str;
 })
