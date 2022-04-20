@@ -63,3 +63,30 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
     textContainer.innerHTML = text;
 })
+
+const review = [
+    {
+        imgUrl: "https://elireview.com/wp-content/uploads/2016/12/reed-profile-square.jpg"
+    },{
+        imgUrl: "https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png"
+    },{
+        imgUrl: "https://www.sony.co.uk/alphauniverse/assets/resized/2020/10/Julien-Mauve-profile_square_291x291.jpg"
+    },{
+        imgUrl: "https://media.creativemornings.com/uploads/user/avatar/49419/Bechtel_Profile_Square.jpg"
+    }
+]
+
+document.addEventListener('DOMContentLoaded', () =>{
+    const reviewTab = document.querySelector('.reviews')
+    let str = `<div class="pics">
+    <img src="${review[0].imgUrl}" alt="">
+</div>`
+
+    for(let i =1; i< review.length; i++){
+        str += `<div class="pics">
+        <img src="${review[i].imgUrl}" alt="">
+    </div>`
+    }
+
+    reviewTab.innerHTML = str;
+})

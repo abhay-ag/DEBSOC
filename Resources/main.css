@@ -138,3 +138,27 @@ form button{
     color: white;
     border-radius: 10px;
 }
+.reviews{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 10vh;
+}
+.reviews .pics{
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid lightslategray;
+}
+.reviews .pics:nth-child(2){
+    transform: translate(-50%);
+}.reviews .pics:nth-child(3){
+    transform: translate(-100%);
+}.reviews .pics:nth-child(4){
+    transform: translate(-150%);
+}
+.reviews .pics img{
+    width: 100%;
+}
