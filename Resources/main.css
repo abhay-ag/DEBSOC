@@ -46,8 +46,6 @@ a{
 }
 .title{
     flex: 0.2;
-    margin: 0 0 0 0rem;
-    padding: 0 0.5rem;
     font-size: 2rem;
     font-weight: 800;
     color: #38b6ff;
@@ -84,8 +82,52 @@ a{
     background-color: #38b6ff;
 }
 .text{
-    margin: 3rem;
+    margin: 3rem 2rem;
+    box-sizing: border-box;
+    padding: 0 2rem 0 0;
 }
 .text h1{
     font-size: 3.5vw;
+}
+.text h5{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.text h5 a{
+    color: #38b6ff;
+    text-decoration: underline;
+}
+.text h5.small{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+form{
+    width: 60%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    padding: 0.4rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+form input{
+    flex: 0.8;
+    outline: none;
+    border: none;
+    font-family: 'montserrat';
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+form button{
+    flex: 0.2;
+    font-size: 1rem;
+    font-family: 'montserrat';
+    padding: 0.4rem 1rem;
+    background-color: #38b6ff;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
 }
