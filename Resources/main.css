@@ -259,3 +259,18 @@ form button{
         font-size: 0.7rem;
     }
 }
+@media screen and (max-width: 470px) {
+    .title{
+        font-size: 1rem;
+    }
+    .links-1{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .links-1 a{
+        margin: 0 0.2rem;
+    }
+    .nav .login-signup button{
+        font-size: 0.5rem;
+    }
+}
