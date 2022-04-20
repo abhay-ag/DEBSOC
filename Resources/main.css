@@ -20,7 +20,7 @@ a{
     width: 70vw;
     height: 90vh;
     flex-direction: row;
-    overflow: hidden;
+    flex-wrap: wrap;
     position: relative;
 }
 .sec1{
@@ -60,4 +60,26 @@ a{
     font-weight: 600;
     color: black;
     margin: 0 0.7rem;
+}
+.nav .login-signup{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    padding-left: 6rem;
+    padding-right: 3rem;
+}
+.nav .login-signup button{
+    font-size: 1rem;
+    font-family: 'montserrat';
+    padding: 0.4rem 1rem;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    border: none;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+}
+.nav .login-signup button:nth-child(2){
+    background-color: #38b6ff;
 }
