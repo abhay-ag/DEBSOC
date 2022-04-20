@@ -22,20 +22,29 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+    background: linear-gradient(90deg, white 70%, rgb(34,38,89) 70%);
 }
 .sec1{
-    flex: 0.7;
+    flex: 0.6;
     display: flex;
     height: inherit;
     background-color: white;
     flex-direction: column;
 }
 .sec2{
-    flex: 0.3;
+    flex: 0.4;
     display: flex;
     flex-direction: column;
     height: inherit;
-    background-color: rgb(34, 38, 89);
+}
+.sec2 .photo{
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+}
+.sec2 .photo img{
+    width: 100%;
+    object-fit: contain;
 }
 .nav{
     width: 100%;
@@ -45,13 +54,13 @@ a{
     background-color: rgba(0,0,0,0);
 }
 .title{
-    flex: 0.2;
+    flex: 0.15;
     font-size: 2rem;
     font-weight: 800;
     color: #38b6ff;
 }
 .links-1{
-    flex:0.8;
+    flex:0.4;
     display: flex;
 }
 .links-1 a{
@@ -62,10 +71,8 @@ a{
 .nav .login-signup{
     display: flex;
     flex-direction: row;
-    flex: 1;
-    justify-content: space-evenly;
-    padding-left: 6rem;
-    padding-right: 3rem;
+    flex: 0.4;
+    justify-content: flex-end;
 }
 .nav .login-signup button{
     font-size: 1rem;
@@ -82,16 +89,16 @@ a{
     background-color: #38b6ff;
 }
 .text{
-    margin: 3rem 2rem;
+    margin: 4rem 2rem;
     box-sizing: border-box;
     padding: 0 2rem 0 0;
 }
 .text h1{
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 .text h5{
-    margin-top: 2rem;
-    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 200;
 }
 .text h5 a{
@@ -103,12 +110,12 @@ a{
     font-size: 1rem;
 }
 form{
-    width: 60%;
+    width: 70%;
     display: flex;
     margin-top: 2rem;
     flex-direction: row;
     padding: 0.4rem;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid rgba(0,0,0,0.2);
 }
 form input{
