@@ -126,7 +126,7 @@ h4.desc{
     align-items: center;
 }
 @media screen and (max-width: 1160px) {
-    body{
+    #main{
         padding: 0;
     }
     h4.desc{
